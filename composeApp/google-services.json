@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "37161023367",
+    "project_id": "orderyou-182218",
+    "storage_bucket": "orderyou-182218.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37161023367:android:42e89205a9c643200e4522",
+        "android_client_info": {
+          "package_name": "com.hamid.onlineshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "37161023367-knjdcucvoesetqbbg26neff17ufoedhp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hamid.onlineshop",
+            "certificate_hash": "30586b417ef4c1972abd0fee9786d8215a7baa13"
+          }
+        },
+        {
+          "client_id": "37161023367-5umm5f6ro6fu6v9eo7qgb9oh06dacv1j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCma4MuQxZ4iNha71rwvVxtLhiZzX3aa9o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "37161023367-5umm5f6ro6fu6v9eo7qgb9oh06dacv1j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
