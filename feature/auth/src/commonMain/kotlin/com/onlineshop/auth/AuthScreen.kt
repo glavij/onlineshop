@@ -24,8 +24,11 @@ import com.onlineshop.shared.Alpha
 import com.onlineshop.shared.BebasNeueFont
 import com.onlineshop.shared.FontSize
 import com.onlineshop.shared.Surface
+import com.onlineshop.shared.SurfaceBrand
+import com.onlineshop.shared.SurfaceError
 import com.onlineshop.shared.TextPrimary
 import com.onlineshop.shared.TextSecondary
+import com.onlineshop.shared.TextWhite
 import rememberMessageBarState
 
 @Composable
@@ -42,7 +45,12 @@ fun AuthScreen() {
                      bottom = padding.calculateBottomPadding()
                  ),
              messageBarState = messageBarState,
-             errorMaxLines = 2
+             errorMaxLines = 2,
+             errorContainerColor = SurfaceError,
+             errorContentColor = TextWhite,
+             successContainerColor = SurfaceBrand,
+             successContentColor = TextPrimary
+
          ){
             Column(modifier = Modifier.fillMaxSize().padding(all = 24.dp)
             ) {
